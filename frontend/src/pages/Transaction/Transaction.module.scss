@@ -1,0 +1,12 @@
+.transactions{
+    padding: 1.5rem;
+    &__title{
+        font-size: 2rem;
+        padding: 2.5rem 0;
+        &__span{
+            font-size: 2rem;
+            padding: 2.5rem 0;
+            color: rgb(80, 153, 80);
+        }
+    }
+}

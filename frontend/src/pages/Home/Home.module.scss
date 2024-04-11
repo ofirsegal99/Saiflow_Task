@@ -1,0 +1,37 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    &__logo{
+        height: 20rem;
+        filter: grayscale(100%);
+    }
+    &__header{
+        font-size: 3rem;
+        color: rgb(93, 207, 93);
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    &__ol{
+        display: flex;
+        flex-direction: column;
+        gap: 3.5rem;
+        padding: 2.5rem;
+        &__li{
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            &__highlight{
+                display: flex;
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: rgb(4, 29, 4);
+            }
+        }
+    }
+}
